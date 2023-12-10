@@ -1,0 +1,118 @@
+section{
+  width: 100%;
+}
+.button-container{
+   /* width: 100%;
+   display: flex;
+   justify-content: space-between; */
+   margin: 10px;
+  }
+  .right-regi-btns{
+    display: flex;
+    float: left;
+  }
+  .home{
+    background-color: black;
+  }
+  .main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 80%;
+  }
+  
+  .left-regi-btns{
+    display: flex;
+    float: right;
+  }
+  .clear{
+    clear: both;
+  }
+  .button-container a{
+    color: #ffff;
+    text-decoration: none;
+  }
+  
+  .schemes{
+    padding:0.6rem 2rem;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: solid white 1px;
+    margin: 0 10px;
+    
+  }
+  
+  .signUp{
+    padding:0.6rem 2rem;
+
+    border-radius: 10px;
+    border: solid white 1px;
+    color: #ffff;
+    text-decoration: none;
+  }
+  .logIn{        
+    padding:0.6rem 2rem;
+
+    border-radius: 10px;
+    border: solid white 1px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #ffff;
+    text-decoration: none;
+  }
+  .hero-section{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+   height: 200px;
+  } 
+  
+  .hero-container{
+    font-family: 'Outfit', sans-serif;  
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    flex-direction:column;
+    height: 200px;
+    
+              
+  }
+  .title{
+   
+    padding-bottom: 0;
+    font-size: 2rem;
+    
+  }
+  .subtitle{
+    color: #ffff;
+    font-size: 2rem;
+  }
+  .subtext{
+   
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #ffff;
+    width: 800px;
+  }
+  
+h1{
+    background: -webkit-linear-gradient(175deg,#00C2FF,#FF00FA);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;  
+}
+h2{
+  margin: 0;
+}
+p{
+  margin: 0;
+}
+.home{
+  width: 100%;
+  height: 100vh;
+  background-image: url('../img/LooperBG.svg');
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}

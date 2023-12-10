@@ -1,0 +1,23 @@
+.main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.main .card {
+  width: 400px;
+  margin: 40px;
+}
+.main .maincontainer .card {
+  text-align: center;
+  min-height: 550px;
+}
+.main .maincontainer .card h5 {
+  margin: 10px;
+}
+.main .maincontainer .card .form-floating {
+  margin-bottom: 1.5rem;
+}
+.main .maincontainer .card .mb-3 {
+  margin-bottom: 1.5rem !important;
+}/*# sourceMappingURL=signup.css.map */

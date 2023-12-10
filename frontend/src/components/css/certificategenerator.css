@@ -1,0 +1,64 @@
+.formpage{
+    display: flex;
+    height: 100vh;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url('../img/group4.png');
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+}
+
+.formpage img{
+ width: 300px;
+ height: auto;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.formpage p{
+   font-size: 35px;
+   font-weight: 700;
+   color: #ffff;
+   margin-bottom: 50px ;
+   }
+
+.formdiv{
+    border: 2px dashed #ffff;
+    box-shadow: 1px 0px 129px -33px rgba(0, 0, 0, 0.76);
+    border-radius: 40px;
+    width: 800px;
+    height: 600px;
+    padding: 50px;
+    margin-left: 100px;
+}
+.formdiv h5{
+    font-weight: 700;
+    font-size: 25px;
+    width: 100%;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #aeb2b9;
+}
+
+.formpage label{
+    margin-top: 20px;
+}
+
+
+.css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root{
+     margin-top: 5px;
+    height: 40px;
+}
+.submitbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.submitbtn button{
+    margin-top:40px;
+    width: 130px;
+}
+

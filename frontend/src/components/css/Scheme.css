@@ -1,0 +1,32 @@
+.schemes-page {
+  background-color: black;
+  height: 300vh; 
+  padding-top: 20px;
+ }
+ 
+ .my-card {
+  background-color: rgb(70, 67, 67);
+  position:relative;
+  flex-direction:column;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin:auto;
+
+  margin-block-end: 10px;
+ }
+ 
+
+ .update{
+  text-color: white;
+ }
+
+ .image{
+  width: 100%;
+  margin: 5px 5px 5px;
+ }
+
+ .text-mutede{
+  text-decoration-color: white;
+ }

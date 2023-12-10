@@ -1,0 +1,8 @@
+/frontend/node_modules
+/backend/.env
+/backend/Certificate-Generator.js
+/backend/package-lock.json
+/backend/UploadIPFS.js
+
+
+/frontend/.env
